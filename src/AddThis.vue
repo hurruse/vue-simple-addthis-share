@@ -2,7 +2,9 @@
   <div
     v-bind="$attrs"
     class="addthis_inline_share_toolbox"
-  />
+  >
+    <slot />
+  </div>
 </template>
 
 <script>
